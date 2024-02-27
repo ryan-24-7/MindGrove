@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+  margin: 0;
+  background-image: url('./assets/bgImage.jpg'); /* Adjust path as necessary */
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  height: 100vh; /* Cover the full viewport height */
+  width: 100vw; /* Cover the full viewport width */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input[type='file'] {
+  cursor: pointer;
+}
+
+/* Improve button hover effects */
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Enhance the visual feedback on buttons */
+button:active {
+  transform: translateY(1px);
+}
