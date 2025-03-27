@@ -15,6 +15,20 @@ How to Run:
 
 Clone the git repository.
 
-Go in the backend folder and run app.py (Install necessary requirements beforehand)
+Install necessary requirements
+```
+pip install pipreqs
+pipreqs /path/to/project
+pip install -r /path/to/requirements.txt
+```
 
-In the main directory, run npm install followed by npm run dev.
+Run the Flask Server
+```
+python3 /Backend/app.py
+```
+
+Start the Application
+```
+npm install # Install all required packages
+npm run dev
+```
